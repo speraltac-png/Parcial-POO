@@ -1,8 +1,8 @@
 class Biblioteca():
     def __init__(self):
         self.__catalogo = []
-        self.__usuarios = []       # lista de usuarios
-        self.__administradores = [] # lista de administradores
+        self.__usuarios = []       
+        self.__administradores = []
 
     def registrar_libros(self, libro):
         self.__catalogo.append(libro)
@@ -244,4 +244,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
