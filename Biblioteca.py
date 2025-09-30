@@ -1,3 +1,9 @@
+#autor : Santiago Peralta Castellanos
+#Caso de uso: Bilioteca universitaria(parial)
+#Registro libros
+#Registro usuarios
+
+
 class Biblioteca():
     def __init__(self):
         self.__catalogo = []
@@ -244,5 +250,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
